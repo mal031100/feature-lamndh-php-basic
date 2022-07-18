@@ -11,9 +11,9 @@
 <body>
      <?php
           $S = "Math book";
-          $explode = explode(' ', $S);
-          $S = $explode[1];
-          if ($S == "book") {
+          // $explode = explode(' ', $S);
+          $S = substr_count($S,"book");
+          if ($S > 0) {
                // echo true;
                echo "True";
           } else {
