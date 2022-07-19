@@ -33,7 +33,6 @@
           }else{
                echo "Chuỗi không hợp lệ";
           }
-
      ?>
 </body>
 </html>
