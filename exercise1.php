@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-     <meta charset="UTF-8">
-     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Document</title>
-</head>
-<body>
-     <?php
+<?php
           echo "<pre>file 1<pre>";
           $file1 = "1.txt";
           $file = fopen($file1,"r");
@@ -33,6 +24,8 @@
           }else{
                echo "Chuỗi không hợp lệ";
           }
+          echo "aaaa";
+          echo 'aaaa';
      ?>
-</body>
-</html>
+     <!-- echo ""
+     echo '' -->
