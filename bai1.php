@@ -10,16 +10,20 @@
 
 <body>
      <?php
-          $S = "Math book";
-          $explode = explode(' ', $S);
-          $S = $explode[1];
-          if ($S == "book") {
-               // echo true;
-               echo "True";
-          } else {
-               // echo false;
-               echo "False";
+          
+          // $explode = explode(' ', $S);
+          function checkValidString(){
+               $S = "Math book";
+               $S = substr_count($S,"book");
+               if ($S > 0) {
+                    // echo true;
+                    echo "True";
+               } else {
+                    // echo false;
+                    echo "False";
+               }
           }
+          checkValidString();
      ?>
 </body>
 
